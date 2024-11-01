@@ -53,8 +53,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const email = document.getElementById('registration-email').value;
             const password = document.getElementById('registration-password').value;
             const errorMessage = document.getElementById('registration-error');
+            const emailPattern = /^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$/;
+            if (!emailPattern.test(email)) {
+                errorElement.textContent = "Пожалуйста, введите действительный адрес электронной почты.";
+            }
 
-            if (name && email && password) {
+            else if (password.length < 8) {
+                errorElement.textContent = "Пароль должен быть не менее 8 символов.";
+            }
+
+            else if (name && email && password) {
                 // Отправка данных на сервер
                 fetch('http://127.0.0.1:8000/api/users/', {
                     method: 'POST',
