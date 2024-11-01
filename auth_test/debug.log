@@ -1,0 +1,21 @@
+2024-09-08 21:51:18,624 - authentication.views - DEBUG - Отображение главной страницы
+2024-09-08 21:51:18,784 - django.request - WARNING - Forbidden: /api/user/
+2024-09-08 21:51:21,589 - authentication.views - DEBUG - Отображение страницы логина
+2024-09-08 21:51:36,805 - authentication.views - DEBUG - Отображение страницы регистрации
+2024-09-08 21:51:48,866 - authentication.views - DEBUG - Регистрация нового пользователя
+2024-09-08 21:51:48,871 - django.request - WARNING - Bad Request: /api/users/
+2024-09-08 21:51:48,903 - authentication.views - DEBUG - Отображение страницы логина
+2024-09-08 21:52:06,316 - django.utils.autoreload - INFO - C:\Users\zasim\Desktop\site_local\auth_test\authentication\views.py changed, reloading.
+2024-09-08 21:52:09,618 - authentication.views - DEBUG - Отображение главной страницы
+2024-09-08 21:52:09,761 - django.request - WARNING - Forbidden: /api/user/
+2024-09-08 21:52:14,146 - authentication.views - DEBUG - Отображение главной страницы
+2024-09-08 21:52:16,612 - authentication.views - DEBUG - Отображение страницы логина
+2024-09-08 21:52:55,802 - django.utils.autoreload - INFO - C:\Users\zasim\Desktop\site_local\auth_test\authentication\views.py changed, reloading.
+2024-09-08 22:36:44,446 - authentication.views - DEBUG - Отображение главной страницы
+2024-09-08 22:36:49,185 - authentication.views - DEBUG - Отображение страницы логина
+2024-09-08 22:36:57,539 - authentication.views - DEBUG - Отображение страницы регистрации
+2024-09-08 22:37:09,304 - authentication.views - DEBUG - Регистрация нового пользователя
+2024-09-08 22:37:09,310 - django.request - WARNING - Bad Request: /api/users/
+2024-09-08 22:37:09,342 - authentication.views - DEBUG - Отображение страницы логина
+2024-09-08 22:37:46,708 - django.utils.autoreload - INFO - C:\Users\zasim\Desktop\site_local\auth_test\authentication\views.py changed, reloading.
+2024-09-08 22:38:50,540 - django.utils.autoreload - INFO - C:\Users\zasim\Desktop\site_local\auth_test\authentication\views.py changed, reloading.
